@@ -1,15 +1,19 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 importers:
 
   .:
     devDependencies:
       '@uwu/lune':
+        specifier: ^1.4.0
+        version: 1.4.0
+      '@uwu/shelter-defs':
         specifier: ^1.3.0
         version: 1.3.0
-      '@uwu/shelter-defs':
-        specifier: ^1.2.1
-        version: 1.2.1
 
 packages:
 
@@ -220,13 +224,13 @@ packages:
     dev: true
     optional: true
 
-  /@uwu/lune@1.3.0:
-    resolution: {integrity: sha512-1tbakIQ7yHEn46FI6dgEv62OufMDbUvyL51RlHMNK0KHiiZxzm81Qmdx3pPAqUVC4DKMlv9w1xqW6DRS1aHC5w==}
+  /@uwu/lune@1.4.0:
+    resolution: {integrity: sha512-aVHYh5i+TlT53kqipTDGTAsxQljH+xEGjo/D/pXQnUD8eL+msEVke+4g5jQBiTAWbKsFtlMrYHv6o99AgMwN4A==}
     hasBin: true
     dependencies:
       chokidar: 3.5.3
       esbuild: 0.17.19
-      esbuild-sass-plugin-ysink: 2.3.3
+      esbuild-sass-plugin-ysink: 2.3.4
       postcss: 8.4.24
       postcss-modules: 6.0.0(postcss@8.4.24)
       solid-js: 1.6.16
@@ -236,8 +240,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@uwu/shelter-defs@1.2.1:
-    resolution: {integrity: sha512-bdjuL350dUGPWMq+1O3D5JF9wBGDWx9Xw7RZMvAIWg6TbUKdDXZ4ACBdTFML/cTdK6S+HjpF8VfSlxgR+EB8vw==}
+  /@uwu/shelter-defs@1.3.0:
+    resolution: {integrity: sha512-VwJpyyzVKQiy9w/rZlP/M2Mxq3uVdZK3hkl6sUuz1L4j0STFxIfcgVrBQQWja8+BBf04+FAbC2mJG2jkCvfwIw==}
     dependencies:
       idb: 7.1.1
       solid-js: 1.6.16
@@ -433,8 +437,8 @@ packages:
     dev: true
     optional: true
 
-  /esbuild-sass-plugin-ysink@2.3.3:
-    resolution: {integrity: sha512-z3H1NoncJJcqoSCfOsqgcCoQCo+hrmbZJ5kl1sUAaFc3i3KxPRw5ntJWvs9HexIBtan4c6gGZyPAKMgtfCoXpw==}
+  /esbuild-sass-plugin-ysink@2.3.4:
+    resolution: {integrity: sha512-tppwB+lzJ0hFocW4GSazcz+cvOTC2X3mU/H+lcVBlUwn+7OpgPkDNSYm3epizeMrfS+uoj8zROxOdQV2IkGjQw==}
     dependencies:
       esbuild: 0.14.54
       resolve: 1.22.2
