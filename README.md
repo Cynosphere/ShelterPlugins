@@ -1,8 +1,18 @@
 # Cynthia's shelter plugins
-A lot of these are going to be proof of concepts of what can be possible instead
-of fully fleshed out quality plugins for the time being.
 
-## Create Emoji
-Create new custom emoji from images and existing custom emojis from the context
-menu. This is currently in the proof of concept stage to demonstrate creating
-context menu entries.
+## Complete
+
+<details>
+  <summary>GIF to Textbox [<a href="https://cynosphere.github.io/ShelterPlugins/gif-to-textbox">plugin link</a>]</summary>
+
+  <p>Puts GIF links in the textbox</p>
+</details>
+
+## Proof of concepts
+
+<details>
+  <summary>Create Emoji [<a href="https://cynosphere.github.io/ShelterPlugins/create-emoji">plugin link</a>]</summary>
+
+  <p>Create new custom emoji from images and existing custom emojis from the context menu. Demonstration of creating
+    context menu entries. <b>Hardcoded classnames, most likely broken</b></p>
+</details>
